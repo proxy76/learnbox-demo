@@ -1,0 +1,47 @@
+.information {
+    height: 50vh;
+}
+
+.wrapper {
+    width: 100%;
+}
+
+.wrapper>.text1 {
+    margin-left: 250px;
+    margin-top: 70px;
+}
+
+.wrapper>.text1>h1 {
+    font-family: 'Dela Gothic One';
+    font-size: 2em;
+}
+
+.wrapper>.text1>h2 {
+    font-family: 'Poppins';
+    font-size: 1.2em;
+    max-width: 60ch;
+}
+
+.wrapper>.text1>input {
+    border: 1px solid black;
+    border-radius: 14px;
+    padding: 5px;
+    width: 250px;
+    margin-top: 10px;
+}
+
+@media (max-width: 1000px) {
+    .wrapper {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .wrapper>.text1 {
+        margin-left: 0px;
+        margin-top: 70px;
+    }
+    
+}
