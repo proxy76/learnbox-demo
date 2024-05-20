@@ -1,7 +1,11 @@
 import './App.css'
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 import FirstSight from './components/FirstSight'
 import Information from './components/Information'
+import AI_Integration from './components/AI_Integration'
+import Sections from './components/Sections'
+import Community from './components/Community';
 
 function App() {
 
@@ -9,6 +13,9 @@ function App() {
     <>
       <FirstSight />
       <Information />
+      <AI_Integration />
+      <Sections />
+      <Community />
     </>
   )
 }

@@ -1,0 +1,44 @@
+.sec {
+    height: 30vh;
+}
+
+.wrapper {
+    width: 100%;
+}
+
+.wrapper>.text {
+    margin-top: 70px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.wrapper>.text>h1{
+    font-family: 'Dela Gothic One';
+    font-size: 2em;
+}
+
+.wrapper>.text>h2 {
+    font-family: 'Poppins';
+    font-size: 1.2em;
+    max-width: 60ch;
+}
+
+.dropdown-wrapper {
+    margin-top: 1.5rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 20px;
+}
+
+#dropdown-basic {
+    background-color: rgb(108, 160, 255);
+    width: 200px;
+    height: 50px;
+    font-size: 1rem;
+    font-family: 'Poppins';
+    border: none;
+}
