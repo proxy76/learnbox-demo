@@ -6,6 +6,7 @@ import Information from './components/Information'
 import AI_Integration from './components/AI_Integration'
 import Sections from './components/Sections'
 import Community from './components/Community';
+import Footer from './components/Footer';
 
 function App() {
 
@@ -16,6 +17,7 @@ function App() {
       <AI_Integration />
       <Sections />
       <Community />
+      <Footer />
     </>
   )
 }

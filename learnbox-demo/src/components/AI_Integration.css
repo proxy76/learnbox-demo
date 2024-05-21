@@ -1,5 +1,5 @@
 .ai {
-    height: 30vh;
+    height: 26vh;
 }
 
 .wrapper {
@@ -20,7 +20,7 @@
     font-size: 2em;
 }
 
-.wrapper>.text>h2 {
+.wrapper>.text>#ai_text {
     font-family: 'Poppins';
     font-size: 1.2em;
     max-width: 60ch;

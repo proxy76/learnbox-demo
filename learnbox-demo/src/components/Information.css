@@ -1,5 +1,11 @@
 .information {
-    height: 70vh;
+    height: 90vh;
+}
+
+#line {
+    border: 2px solid black;
+    border-radius: 14px;
+    width: 35%;
 }
 
 .wrapper {
@@ -19,6 +25,26 @@
     flex-direction: column;
     justify-content: right;
     align-items: flex-end;
+}
+
+.wrapper>.text3-wrapper {
+    margin-top: 16vh;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5rem;
+}
+
+.wrapper>.text3-wrapper>.text3 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+    gap: 1rem;
 }
 
 .wrapper>.text1>h1, .wrapper>.text2>h1 {

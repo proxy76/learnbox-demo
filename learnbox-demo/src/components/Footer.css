@@ -1,0 +1,9 @@
+footer {
+    height: 20vh;
+}
+
+footer>svg {
+    position: relative;
+    top: 0;
+    left: 0;
+}
